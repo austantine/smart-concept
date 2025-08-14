@@ -1,10 +1,39 @@
----
-layout: default
-title: Home
----
 
-# 👋 Welcome to Smart-concept's GitHub Page
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart-concept GitHub Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    
+  </head>
+  <body>
+    <header>
+      <h1>Smart-concept GitHub Page</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-This is a simple static site powered by **Jekyll** and hosted on **GitHub Pages**.
+    <main>
+      {{ content }}
+      <p>
+        Welcome to the Smart-concept GitHub Page! 
+        Here you can find information about our projects and contributions. 
+      </p>
+    </main>
 
-Feel free to customize this page with your own content, images, and links!
+    <footer>
+      <p>&copy; 2023 Smart-concept. All rights reserved.</p>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
