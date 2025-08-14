@@ -1,4 +1,4 @@
-# Austine's GitHub Pages Site
+# Smart-concept's GitHub Pages Site
 
 This repository hosts a personal website powered by Jekyll and GitHub Pages.
 
